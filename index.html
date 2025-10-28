@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GDesk</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head><body>
+    <div id="wallpaper-layer"></div>
+    <div id="app-container">
+        <header class="header">
+            <div class="header-left">
+                <form action="https://www.google.com/search" method="GET" target="_blank" class="search-form">
+                    <input type="text" name="q" placeholder="Google Suche..." class="search-input">
+                    <button type="submit" class="search-button">Suchen</button>
+                </form>
+            </div>
+            <div class="header-right">
+                <div id="stock-price"></div>
+                <div class="theme-switch-wrapper">
+                    <label class="theme-switch" for="checkbox">
+                        <input type="checkbox" id="checkbox" />
+                        <div class="slider round"></div>
+                    </label>
+                </div>
+                <img id="theme-icon" src="Images/DarkModeIcon.png" style="height: 24px; margin-left: 8px; vertical-align: middle; cursor: pointer;">
+                
+                <h1 class="header-title">GDesk</h1>
+                <a href="https://myaccount.google.com/" onclick="const width = 800; const height = 600; const left = (screen.width / 2) - (width / 2); const top = (screen.height / 2) - (height / 2); window.open(this.href, 'googleAccount', `width=${width},height=${height},left=${left},top=${top},resizable=yes,scrollbars=yes`); return false;" rel="noopener noreferrer" class="profile-link"></a>
+            </div>
+        </header>
+
+        <div id="desktop">
+            <div id="folder-bar">
+                <!-- Folders will be dynamically inserted here -->
+            </div>
+            <!-- Draggable windows will be dynamically inserted here -->
+        </div>
+    </div>
+
+
+
+    <div id="datetime-container">
+        <div id="time"></div>
+        <div id="date"></div>
+        <button id="new-note-btn" class="new-note-button">New Note</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
