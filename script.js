@@ -35,7 +35,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 { name: 'Blogger', url: 'http://www.Blogger.com', icon: 'Blogger.png' },
                 { name: 'Adsense', url: 'https://adsense.google.com/adsense', icon: 'AdSense.png' },
                 { name: 'Finance', url: 'https://www.google.com/finance', icon: 'Finance.png' },
-                { name: 'One', url: 'https://one.google.com/', icon: 'one.png' },
+                { name: 'One', url: 'https://one.google.com/', icon: 'One.png' },
                 { name: 'Passwords', url: 'https://passwords.google.com/', icon: 'Password.png' },
                 { name: 'Recorder', url: 'https://recorder.google.com/', icon: 'Recorder.png' },
                 { name: 'Interests', url: 'https://www.google.ch/interests/saved', icon: 'Saves.png' },
@@ -64,7 +64,7 @@ document.addEventListener('DOMContentLoaded', () => {
             color: 'yellow',
             services: [
                 { name: 'Maps', url: 'https://www.google.com/maps', icon: 'Maps.png' },
-                { name: 'Earth', url: 'https://earth.google.com/', icon: 'earth.png' },
+                { name: 'Earth', url: 'https://earth.google.com/', icon: 'Earth.png' },
                 { name: 'Travel', url: 'https://www.google.com/travel', icon: 'Travel.png' },
                 { name: 'Flights', url: 'https://www.google.com/travel/flights', icon: 'Flight.png' },
                 { name: 'Translate', url: 'https://translate.google.com/', icon: 'Translate.png' }
