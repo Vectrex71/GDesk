@@ -2,7 +2,7 @@
 
 A customizable, privacy-focused desktop environment in your browser for quick access to Google services.
 
-![GDesk Screenshot Bright Mode](https://i.postimg.cc/mDZYxtqV/GDek-Bright-Mode.png)) 
+![GDesk Screenshot Bright Mode](https://i.postimg.cc/mDZYxtqV/GDek-Bright-Mode.png) 
 ![GDesk Screenshot Dark Mode](https://i.postimg.cc/y8X3V7F4/GDesk-Dark-Mode.png) 
 
 ## About The Project
