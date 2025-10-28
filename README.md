@@ -9,6 +9,8 @@ A customizable, privacy-focused desktop environment in your browser for quick ac
 
 GDesk is a lightweight, browser-based desktop interface designed to provide an organized and efficient way to access your favorite Google services. It runs entirely on the client-side, using plain HTML, CSS, and JavaScript. With a focus on privacy, GDesk requires no user accounts or logins, and all personal settings are stored locally in your browser.
 
+[**Try the Tool here!**](https://vectrex71.github.io/GDesk/) 
+ 
 ## Key Features
 
 *   **🗂️ Organized App Launcher:** Access dozens of Google services, neatly organized into folders like "Office," "Media," and "Creativity."
@@ -43,6 +45,8 @@ Since this is a pure front-end project, there is no installation required.
 1.  Clone the repository or download the files.
 2.  Open the `index.html` file in your favorite web browser.
 
+ [**Or try the Tool here!**](https://vectrex71.github.io/GDesk/) 
+ 
 ## Built With
 
 *   HTML5
